@@ -1,0 +1,20 @@
+<svg id="icon-Employment" viewBox="0 0 86 86" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+	<g transform="matrix(0.395072,0,0,0.395072,-4203.15,-746.478)">
+		<g>
+			<g opacity="0.7">
+				<g transform="matrix(0,-4.16667,-4.16667,0,10747.8,1929.74)">
+					<circle cx="-11.779" cy="-0.001" r="11.779" style="fill:none;stroke:white;stroke-width:1.21px;"></circle>
+				</g>
+				<g transform="matrix(4.16667,0,0,4.16667,10783.3,2081.65)">
+					<path d="M0,-15.99L0,0L-8.587,-4.497L-17.174,0L-17.174,-15.99" style="fill:none;stroke:white;stroke-width:1.21px;"></path>
+				</g>
+				<g transform="matrix(4.16667,0,0,4.16667,10711.8,1914.98)">
+					<path d="M0,7.098L0,0L17.174,0L17.174,7.098" style="fill:none;stroke:white;stroke-width:1.21px;"></path>
+				</g>
+			</g>
+		</g>
+		<g transform="matrix(4.16667,0,0,4.16667,10747.8,2013.34)">
+			<path d="M0,-17.661L2.869,-11.848L9.285,-10.915L4.643,-6.39L5.738,0L0,-3.017L-5.738,0L-4.643,-6.39L-9.285,-10.915L-2.869,-11.848L0,-17.661Z" style="fill:none;stroke:rgb(78,212,1);stroke-width:1.21px;"></path>
+		</g>
+	</g>
+</svg>

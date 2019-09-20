@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Компьютерная школа Hillel в Киеве: курсы IT технологий</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles-compiled.css">
+</head>
+<body>
+	<header>
+		<div class="header__bar">
+			<div class="wrapper">
+				<table class="header__bar-table">
+					<tr>
+						<td>
+							<ul class="header__locations">
+								<li class="active"><a href="">Киев</a></li>
+								<li><a href="">Одесса</a></li>
+								<li><a href="">Днепр</a></li>
+								<li><a href="">Харьков</a></li>
+							</ul>
+						</td>
+						<td class="header__links">
+							<ul class="header__contacts">
+								<li>
+									<a href="mailto:kyiv@ithillel.ua">
+										<img src="images/header_email.svg" alt="email">
+										kyiv@ithillel.ua
+									</a>
+								</li>
+								<li>
+									<a href="tel:+380676371948">
+										<img src="images/header_tel.svg" alt="email">
+										+38 (067) 637 19 48
+									</a>
+								</li>
+							</ul>
+							<ul class="header__locations">
+								<li class="active">
+									<a href="">Рус</a>
+								</li>
+								<li>
+									<a href="">Укр</a>
+								</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="header__menu">
+			<div class="wrapper">
+				<table class="zagolovok">
+					<tr>
+						<td>
+							<img src="images/logo-intro.svg" alt="Hillel logo" height="30" class="header__menu-logo">
+						</td>
+						<td>
+							<nav>
+								<ul class="header__menu-nav">
+									<li>
+										<div class="dropdown">
+											<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												школа
+											</button>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+												<a class="dropdown-item" href="#">О школе</a>
+												<a class="dropdown-item" href="#">Преподаватели</a>
+												<a class="dropdown-item" href="#">Стать преподавателем</a>
+												<span></span>
+												<a class="dropdown-item" href="#">Проверка сертификата</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="dropdown">
+											<button class="btnschoolcourses" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												курсы
+											</button>
+											<a href="https://ithillel.ua/"></a>
+										</div>
+									</li>
+									<li>
+										<a href="">Трудоустройство</a>
+									</li>
+									<li>
+										<a href="">Вебинары</a>
+									</li>
+									<li>
+										<a href="">Блог</a>
+									</li>
+									<li>
+										<a href="">Контакты</a>
+									</li>
+									<li>
+										<a href="#evo__programm">
+											<img src="images/logo__evo.svg" alt="Evo" class="evo__logo" height="19">
+										</a>
+									</li>
+									
+								</ul>
+							</nav>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="intro">
+			<div class="wrapper">
+				<table class="intro__heading">
+					<tr>
+						<td>
+							<h2 class="compkurs">Компьютерные курсы <span class="inkiev">в Киеве</span></h2>
+							<p class="speci">Готовим качественных IT-специалистов, сразу <span class="readytowork">готовых к трудоустройству</span></p>				
+							<button type="button" class="btn btn-primary zapus" data-toggle="modal" data-target="#exampleModal">Записаться на курс</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		</div>
+
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		  	<div class="modal-content">
+		  		<form class="zajavka">
+					<div class="start">
+						<p class="head">Заявка на регистрацию
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<img src="images/xrestred.svg" alt="" width="15" height="15" class="close">
+							</button>
+						</p> 
+						<p class="recall"><img src="images/znakvoprosa.svg" alt="" width="15" height="15" class="vopros">Оставте ваши контактные данные, и мы вам <br>обязательно перезвоним!</p>
+					</div>
+					<div class="inner__labels">
+						<label class="inner__label">
+							<span class="circle"></span>
+							<span class="title">Имя</span>
+							<input type="text" name="name" placeholder="Марк">
+						</label>
+						<label class="inner__label">
+							<span class="circle"></span>
+							<span class="title">Email</span>
+							<input type="email" name="name" placeholder="mark@gmail.com">
+						</label>
+						<label class="inner__label">
+							<span class="circle"></span>
+							<span class="title">Телефон</span>
+							<input type="tel" name="name" placeholder="+38 (xxx) xxx-xx-xx">
+						</label>
+						<label class="inner__label">
+							<span class="circle1"></span>
+							<span class="title">Город</span>
+							<select class="sel">
+								<option value="Select 1">Киев</option>
+								<option value="Select 2">Одесса</option>
+								<option value="Select 3">Днепр</option>
+								<option value="Select 4">Харьков</option>
+							</select>
+						</label>
+						<label class="inner__label">
+							<span class="circle2"></span>
+							<span class="title">Курс</span>
+							<select class="sel">
+								<option value="Select 1" disabled selected>Выберите</option>
+								<option value="Select 1">Front-End Basic</option>
+								<option value="Select 2">Java Elementary</option>
+								<option value="Select 3">DecOps</option>
+								<option value="Select 4">PHP</option>
+								<option value="Select 5">QA Manual</option>
+							</select>
+						</label>
+
+						<p class="kurs">Обязательно выберите курс, на который хотите <br>оставить заявку</p>
+					</div>
+					<div class="zajavkaniz">
+						<button class="zapus2">Оставить заявку</button>
+					</div>
+				</form>
+		  	</div>
+		  </div>
+		</div>
+
+		<div class="courses_intro">
+			<div class="wrapper">
+				<div class="accordion courses__menu" id="accordionExample">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"  aria-expanded="true" aria-controls="collapseOne">
+									<img src="icons/Programming_b.svg" alt="" width="30" height="30" class="pici">Программирование
+								</button>
+							</h5>
+						</div>
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div class="card-body">
+								<button class="btn btn-secondary btn-success btn-course" id="course-Front-End">Front-End</button>
+								<button class="btn btn-secondary btn-course" id="course-Java">Java</button>
+								<button class="btn btn-secondary btn-course" id="course-PHP">PHP</button>
+								<button class="btn btn-secondary btn-course" id="course-Python">Python</button>
+								<button class="btn btn-secondary btn-course" id="course-C">C#</button>
+								<button class="btn btn-secondary btn-course" id="course-DevOps">DevOps</button>
+								<button class="btn btn-secondary btn-course" id="course-Hi-tech">Hi-tech</button>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo" name="course-QA">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" aria-expanded="false" data-target="#collapseTwo" aria-controls="collapseTwo">
+									<img src="icons/Testing_b.svg" alt="" width="30" height="30" class="pici">Тестирование
+								</button>
+							</h5>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample"></div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingThree" name="course-MN">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<img src="icons/Management_b.svg" alt="" width="30" height="30" class="pici">Менеджмент
+								</button>
+							</h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample"></div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingFour" name="course-MK">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" aria-expanded="false" data-target="#collapseFour" aria-controls="collapseFour">
+									<img src="icons/Marketing_b.svg" alt="" width="30" height="30" class="pici">Маркетинг
+								</button>
+							</h5>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample"></div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingFive" name="course-DI">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" aria-expanded="false" data-target="#collapseFive" aria-controls="collapseFive">
+									<img src="icons/Design_b.svg" alt="" width="30" height="30" class="pici">Дизайн
+								</button>
+							</h5>
+						</div>
+						<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample"></div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingSix">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+									<img src="icons/Kids.svg" alt="" width="30" height="30" class="pici"><h style="color:#01C6D4;">Детские курсы</h>
+								</button>
+							</h5>
+						</div>
+						<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+							<div class="card-body">
+								<button class="btn btn-secondary btn-course" id="course-10">10-13 years</button>
+								<button class="btn btn-secondary btn-course" id="course-14">14-16 years</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="courses__content">
+					<div class="courses__content-block">
+						<section class="course__info active" id="course-Front-End-content">
+							<h3><b>Программирование</b> <span class="circle"></span> <b>Front-End</b></h3>
+							<div class="course__about">
+								<div class="course__naming">
+									<p class="front-end"><img src="icons/Front-End/Front-End-Basic_w.svg" alt="" width="30" height="30" class="pici">Front-End Basic</p>
+									<p class="front-end-pro"><img src="icons/Front-End/Front-End-Pro_w_181227_082127.svg" alt="" width="30" height="30"  class="pici">Front-End Pro<span class="adv">ADVANCED</span></p>
+									<p class="front-end-pro-plus"><img src="icons/Front-End/Front-End-Pro-Plus_w.svg" alt="" width="30" height="30" class="pici">Front-End Pro Plus<span class="adv">ADVANCED</span></p>
+									<p class="react"><img src="icons/Front-End/React_w.svg" alt="" width="30" height="30" class="pici">React<span class="adv">ADVANCED</span></p>
+									<p class="jue"><img src="icons/Front-End/VueJS_w.svg" alt="" width="30" height="30" class="pici">Jue.js<span class="adv">ADVANCED</span></p>
+								</div>
+								<div class="course__descript">
+									Front-End — интерфейс взаимодействия между пользователем и основной программной частью и одна из наиболее быстро развивающихся областей программирования. Визуальной составляющей Front-End-разработки является верстка.
+
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+						<section class="course__info" id="course-Java-content">
+							<h3><b>Программирование</b> <span class="circle"></span> <b>Java</b></h3>
+							<div class="course__about">
+								<div class="course__naming">
+									<p class="injava"><img src="icons/Java/Introduction-Java_w.svg" alt="" width="30" height="30" class="pici">Introduction Java</p>
+									<p class="javael"><img src="icons/Java/Java-Elementary_w.svg" alt="" width="30" height="30" class="pici">Java Elementary<span class="adv">ADVANCED</span></p>
+									<p class="javaen"><img src="icons/Java/Java-Enterprise_w.svg" alt="" width="30" height="30" class="pici">Java Enterprise<span class="adv">ADVANCED</span></p>
+								</div>
+								<div class="course__descript">
+									Java — сильно типизированный объектно-ориентированный язык программирования, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). Приложения Java обычно транслируются в специальный байт-код, поэтому они могут работать на любой компьютерной архитектуре, с помощью виртуальной Java-машины. Дата официального выпуска — 23 мая 1995 года.
+
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+
+						<section class="course__info" id="course-PHP-content">
+							<h3><b>Программирование</b> <span class="circle"></span> <b>PHP</b></h3>
+							<div class="course__about">
+								<div class="course__naming">
+									<p class="php"><img src="icons/PHP/PHP_w.svg" alt="" width="30" height="30" class="pici">PHP<span class="adv">ADVANCED</span></p>
+
+								</div>
+								<div class="course__descript">
+									PHP — язык программирования общего назначения с открытым кодом, интенсивно применяемый для разработки веб-приложений. В настоящее время поддерживается подавляющим большинством провайдеров и является одним из лидеров среди языков, применяющихся для создания веб-сайтов. 
+
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+
+						<section class="course__info" id="course-Python-content">
+							<h3><b>Программирование</b> <span class="circle"></span> <b>PHP</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>Introduction Python</p>
+									<p>Python Advanced</p>
+									<p>Data Science и Machine Learning</p>
+
+								</div>
+								<div class="course__descript">
+									Python — активно развивающийся высокоуровневый язык программирования общего назначения, ориентированный на повышение производительности разработчика и читаемости кода с минималистичным синтаксисом ядра. Стандартная библиотека Python включает большой объём полезных функций. Разработка языка Python была начата в конце 1980-х годов сотрудником голландского института CWI Гвидо ван Россумом.
+
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+
+						<section class="course__info" id="course-C-content">
+							<h3><b>Программирование</b> <span class="circle"></span> <b>C#</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>C#</p>
+
+								</div>
+								<div class="course__descript">
+									C# — объектно-ориентированный язык программирования. Разработан в 1998—2001 годах группой инженеров компании Microsoft под руководством Андерса Хейлсберга и Скотта Вильтаумота как язык разработки приложений для платформы Microsoft .NET Framework.
+
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+
+						<section class="course__info" id="course-DevOps-content">
+							<h3><b>Программирование</b> <span class="circle"></span> <b>DevOps</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>DevOps</p>
+
+								</div>
+								<div class="course__descript">
+									DevOps engineer — это специалист, который работает на стыке задач программистов и системных администраторов и занимается проектированием, разработкой, тестированием, развертыванием, а также поддержкой и мониторингом жизненного цикла приложения.
+
+									Главной задачей такого специалиста является максимальное увеличение предсказуемости, эффективности и безопасности разработки программного обеспечения.
+
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+
+						<section class="course__info" id="course-Hi-tech-content">
+							<h3><b>Программирование</b> <span class="circle"></span> <b>Hi-tech</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>Data Science и Machine Learning</p>
+
+								</div>
+								<div class="course__descript">
+									Hi-tech — это раздел, посвященный самым новым, актуальным и трендовым технологиям.
+
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+
+					</div>
+					<div class="courses__content-block">
+						<section class="course__info" id="course-QA-content">
+							<h3><b>Тестирование</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>QA Manual</p>
+									<p>Java for QA Automation<span class="adv">ADVANCED</span></p>
+									<p>QA Automation<span class="adv">ADVANCED</span></p>
+								</div>
+								<div class="course__descript">
+									Тестировщик — специалист, принимающий участие в тестировании программного обеспечения. В его обязанность входит поиск вероятных ошибок и сбоев в функционировании тестируемого продукта и обеспечение должного уровня качества.
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+					</div>
+
+					<div class="courses__content-block">
+						<section class="course__info" id="course-MN-content">
+							<h3><b>Менеджмент</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>Project Management</p>
+									<p>HR и рекрутинг в IT</p>
+									<p>Product Management</p>
+									<p>Бизнес-аналитика</p>
+								</div>
+								<div class="course__descript">
+									Management — область деятельности, в ходе которой определяются и достигаются четкие цели проекта при сохранении баланса между объёмом работ, ресурсами, временем, качеством и рисками. Ключевым фактором успеха проектного управления является наличие чёткого заранее определённого плана, минимизации рисков и отклонений от плана, эффективного управления изменениями.
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+					</div>
+
+					<div class="courses__content-block">
+						<section class="course__info" id="course-MK-content">
+							<h3><b>Маркетинг</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>Social Media Marketing</p>
+									<p>SMM Pro<span class="adv">ADVANCED</span></p>
+									<p>Интернет-маркетинг</p>
+									<p>SEO</p>
+								</div>
+								<div class="course__descript">
+									Маркетинг имеет более широкое значение, чем продвижение или продажи. Это общее видение деятельности предприятия относительно рынков. Используя весь набор маркетинговых инструментов, можно достичь значительных успехов, умело обыгрывая своих конкурентов и качественно обслуживая своих клиентов. Знание аспектов маркетинга позволяет оптимизировать траты на рекламу и правильно построить бизнес-стратегию.
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+					</div>
+
+					<div class="courses__content-block">
+						<section class="course__info" id="course-DI-content">
+							<h3><b>Дизайн</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>Основы дизайна</p>
+									<p>UI/UX Design<span class="adv">ADVANCED</span></p>
+
+								</div>
+								<div class="course__descript">
+									Разработка пользовательских интерфейсов при грамотном подходе строится таким образом, чтобы создать его максимально привлекательным и удобным для оптимизации его взаимодействия с пользователем.
+
+									<p>Перед разработчиками веб-интерфейсов в любом проекте ставится задача создания именно дружественного по отношению к пользователю интерфейса.</p>
+
+									<p class="advcolor"><span class="adv">ADVANCED</span> — курсы, требующие определенных базовых знаний и прохождения теста.</p>
+								</div>
+							</div>
+						</section>
+					</div>
+
+
+					<div class="courses__content-block">
+						<section class="course__info" id="course-10-content">
+							<h3><b>Детские курсы</b><span class="circle"></span> <b>10-13 лет</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>Создание сайтов</p>
+								</div>
+								<div class="course__descript">
+									Мы живём в динамично развивающемся мире, где IT-технологии применяются в большинстве сфер жизни. Сегодня начинать учиться программированию лучше в более раннем возрасте. Ведь, получив основы компьютерной грамотности, ребёнок сможет применить их в любой профессии.
+								</div>
+							</div>
+						</section>
+						<section class="course__info" id="course-14-content">
+							<h3><b>Детские курсы</b><span class="circle"></span> <b>14-16 лет</b></h3>
+							<div class="course__about">
+								<div class="course__naming2">
+									<p>Introduction Java для школьников</p>
+									<p>Front-end для подростков</p>
+								</div>
+								<div class="course__descript">
+									Мы живём в динамично развивающемся мире, где IT-технологии применяются в большинстве сфер жизни. Сегодня начинать учиться программированию лучше в более раннем возрасте. Ведь, получив основы компьютерной грамотности, ребёнок сможет применить их в любой профессии.
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<div class="wrapper">
+					<div class="social">
+						<div class="seti">
+							<div class="set">
+								<div class="setpic"><img src="images/footer/footer_socialFb.svg" alt="" height="20" width="20"></div>
+								
+								<div class="settext"><p class="lot">10556</p></div>
+							</div>
+							<div class="set">
+								<div class="setpic"><img src="images/footer/footer_socialYt.svg" alt="" height="20" width="20"></div>
+								
+								<div class="settext"><p class="lot">26563</p></div>
+							</div>
+							<div class="set">
+								<div class="setpic"><img src="images/footer/footer_socialIg.svg" alt="" height="20" width="20"></div>
+								
+								<div class="settext"><p class="lot">4704</p></div>
+							</div>
+							<div class="set">
+								<div class="setpic"><img src="images/footer/footer_socialIn.svg" alt="" height="20" width="20"></div>
+								
+								<div class="settext"><p class="lot">1470</p></div>
+							</div>
+							<div class="set">
+								<div class="setpic">
+									<img src="images/footer/footer_socialTg.svg" alt="" height="20" width="20">
+								</div>
+							</div>
+						</div>
+						<div class="goroda">
+							<div class="city">
+								<div class="textcity">КИЕВ</div>
+								<div class="textcity">ОДЕССА</div>
+								<div class="textcity">ДНЕПР</div>
+								<div class="textcity">ХАРЬКОВ</div>
+							</div>
+
+							<div class="adress">
+								<div class="points">
+									<img src="images/points/home-icon-silhouette.svg" alt="" height="20" width="20" class="si">
+									<div class="atext">ул.Мечникова, 14/1 <br>ст. метро "Кловская" <br>2-й этаж, офис 222а</div>
+								</div>
+
+								<div class="points">
+									<img src="images/points/phone.svg" alt="" height="20" width="20" class="si">
+									<div class="atext">+38 (067) 808 45 69 <br>+38 (044) 290 76 31</div>
+								</div>
+
+								<div class="points">
+									<img src="images/points/mail-black-envelope-symbol.svg" alt="" height="20" width="20" class="si">
+									<div class="atext">kyiv@ithillel.ua</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="rassilka">
+						<div class="email">
+							<img src="icons/mail.svg" alt="" height="35" width="35" class="si">
+							<div class="etext">Подпишитесь на рассылку - оставайтесь в курсе трендов<br>IT-рынка, а также новостей Компьютерной школы Hillel</div>
+						</div>
+						<form class="poleemail">
+							
+								<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ваш email" required=""><button type="button" class="btn btn-primary">ПОДПИСАТЬСЯ</button>
+														
+						</div>
+					</div>
+
+					
+				</div>
+				<div class="end">
+					<div class="wrapper">
+						<nav class="ssilkinav">
+							<ul class="lis">
+								<li><a href="URL" class="ssilkis">Личный кабинет</a></li>
+								<li><a href="URL" class="ssilkis">Работа в IT</a></li>
+								<li><a href="URL" class="ssilkis">Карта сайта</a></li>
+								<li><a href="URL" class="ssilkis">Политика конфиденциальности</a></li>
+							</ul>	
+						</nav>
+						<div class="textssilki">© 2019 Компьютерная школа Hillel</div>
+					</div>
+					
+				</div>	
+			</div>
+		</footer>
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<!-- our script -->
+		<script src="js/script.js"></script>
+	</main>
+</body>
+</html>

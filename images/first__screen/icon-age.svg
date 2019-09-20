@@ -1,0 +1,23 @@
+<svg id="icon-Age" viewBox="0 0 86 86" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+	<g transform="matrix(1,0,0,1,-10102.7,-2032.82)">
+		<g>
+			<g opacity="0.7">
+				<g transform="matrix(1.54321,0,0,1.57679,10126.7,2042.35)">
+					<path d="M0,22.14C0,22.14 6.821,13.111 15.646,17.852C24.473,22.593 28.612,17.589 28.612,17.589L24.658,2.958C24.658,2.958 19.367,6.905 11.465,3.407C2.744,-0.453 -2.526,7.488 -2.526,7.488" style="fill:none;stroke:white;stroke-width:1.28px;"></path>
+				</g>
+				<g transform="matrix(0.244593,1.55686,1.52371,-0.249915,10155.3,2065.82)">
+					<path d="M-17.046,-20L23.467,-20" style="fill:none;stroke:white;stroke-width:1.29px;"></path>
+				</g>
+			</g>
+		</g>
+		<g transform="matrix(0.244593,1.55686,1.52371,-0.249915,10174.1,2062.32)">
+			<path d="M-9.409,-20.57L-2.315,-20.396" style="fill:none;stroke:rgb(78,212,1);stroke-width:1.29px;stroke-linejoin:miter;"></path>
+		</g>
+		<g transform="matrix(1,0,0,1,-8887.5,1114.82)">
+			<path d="M19029.5,943C19031,942.668 19033.6,941.935 19035,943.5C19036.9,945.594 19036.5,949 19036.5,949" style="fill:none;stroke:rgb(78,212,1);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:1.5;"></path>
+		</g>
+		<g transform="matrix(1,0,0,1,-8900,1118.32)">
+			<path d="M19052,947L19056.5,947.5" style="fill:none;stroke:rgb(78,212,1);stroke-width:2px;stroke-linejoin:miter;stroke-miterlimit:1.5;"></path>
+		</g>
+	</g>
+</svg>

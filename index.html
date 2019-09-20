@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Компьютерная школа Hillel в Киеве: курсы IT технологий</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<div class="header__bar">
+			<div class="wrapper">
+				<table class="header__bar-table">
+					<tr>
+						<td>
+							<ul class="header__locations">
+								<li class="active"><a href="">Киев</a></li>
+								<li><a href="">Одесса</a></li>
+								<li><a href="">Днепр</a></li>
+								<li><a href="">Харьков</a></li>
+							</ul>
+						</td>
+						<td class="header__links">
+							<ul class="header__contacts">
+								<li>
+									<a href="mailto:kyiv@ithillel.ua">
+										<img src="images/header_email.svg" alt="email">
+										kyiv@ithillel.ua
+									</a>
+								</li>
+								<li>
+									<a href="tel:+380676371948">
+										<img src="images/header_tel.svg" alt="email">
+										+38 (067) 637 19 48
+									</a>
+								</li>
+							</ul>
+							<ul class="header__locations">
+								<li class="active">
+									<a href="">Рус</a>
+								</li>
+								<li>
+									<a href="">Укр</a>
+								</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="header__menu">
+			<div class="wrapper">
+				<table>
+					<tr>
+						<td>
+							<img src="images/logo.svg" alt="Hillel logo" height="30" class="header__menu-logo">
+						</td>
+						<td>
+							<nav>
+								<ul class="header__menu-nav">
+									<li>
+										<div class="dropdown">
+											<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												школа
+											</button>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+												<a class="dropdown-item" href="#">О школе</a>
+												<a class="dropdown-item" href="#">Преподаватели</a>
+												<a class="dropdown-item" href="#">Стать преподавателем</a>
+												<span></span>
+												<a class="dropdown-item" href="#">Проверка сертификата</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a href="">Курсы</a>
+									</li>
+									<li>
+										<a href="">Трудоустройство</a>
+									</li>
+									<li>
+										<a href="#evo__programm">
+											<img src="images/logo__evo.svg" alt="Evo" class="evo__logo" height="19">
+										</a>
+									</li>
+									<li>
+										<a href="" class="header__menu-consult">Бесплатная консультация</a>
+									</li>
+								</ul>
+							</nav>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="intro">
+			<div class="wrapper">
+				<table class="intro__heading">
+					<tr>
+						<td>
+							<img src="images/logo-intro.svg" alt="logo intro" width="300">
+							<h1>Учись ради мечты!</h1>
+							
+							<button type="button" class="btn btn-primary zapus" data-toggle="modal" data-target="#exampleModal">Записаться на курс</button>
+						</td>
+						<td class="intro__map">
+							<p class="intro__map-kiev">Киев <img src="images/map-location.svg" alt="map pin"> <img src="images/map-pin.svg" alt="map pin" class="intro__map-pin"></p>
+
+							<p class="intro__map-kharkiv">Харьков <img src="images/map-location.svg" alt="map location"></p>
+
+							<p class="intro__map-dnepr">Днепр <img src="images/map-location.svg" alt="map location"></p>
+
+							<p class="intro__map-odessa">Одесса <img src="images/map-location.svg" alt="map location"></p>
+						</td>
+
+					</tr>
+				</table>
+				<div class="parent"> 
+					<div class="child child1">
+						<img src="images/first__screen/icon-shuttle.svg" alt="shuttle" width="50" height="50">
+						<p class="p1">8000</p>
+						<p class="p2">+</p>
+						<p class="p3">Выпускников <br>школы</p>
+					</div>
+					<div class="child child2">
+						<img src="images/first__screen/icon-youtube.svg" alt="" width="50" height="50">
+						<div class="blocksyourtube">
+							<p class="youtube">Cамый крупный в стране YouTube-канал</p>
+							<p class="it">среди IT-школ, которые занимаються обучением в offline режиме</p>
+						</div>
+					</div>
+				</div>
+				<div class="resursi">
+					<div class="flexes6">
+						<img src="images/first__screen/icon-age.svg" alt="" width="50" height="50">
+						<div class="sixschool">
+							<div class="six">6 <p class="years">лет</p></div>
+							<div class="school">Школа предоставляет <br>образовательные услуги</div>
+						</div>
+					</div>
+					<div class="flexes6">
+						<img src="images/first__screen/icon-visitors.svg" alt="" width="50" height="50">
+						<div class="sixschool">
+							<div class="six">2000 <p class="years-plus">+</p></div>
+							<div class="school">человек в день посещают сайт<br>школы</div>
+						</div>
+					</div>
+					<div class="flexes6">
+						<img src="images/first__screen/icon-cities.svg" alt="" width="50" height="50">
+						<div class="sixschool">
+							<div class="six">4 <p class="years">города</p></div>
+							<div class="school">Киев, Одесса, Днепр, Харьков</div>
+						</div>
+					</div>
+					<div class="flexes6">
+						<img src="images/first__screen/icon-coaches.svg" alt="" width="50" height="50">
+						<div class="sixschool">
+							<div class="six">100 <p class="years-plus">+</p></div>
+							<div class="school">преподавателей-практиков</div>
+						</div>
+					</div>
+					<div class="flexes6">
+						<img src="images/first__screen/icon-employment.svg" alt="" width="50" height="50">
+						<div class="sixschool">
+							<div class="six">43 <p class="years">%</p></div>
+							<div class="school">трудоустроеных студентов</div>
+						</div>
+					</div>
+					<div class="flexes6">
+						<img src="images/first__screen/icon-salary.svg" alt="" width="50" height="50">
+						<div class="sixschool">
+							<div class="six">21600 <p class="years">грн/мес</p></div>
+							<div class="school">со старта составила рекордная<br>зарплата Выпускника</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		  	<div class="modal-content">
+		  		<form class="zajavka">
+					<div class="start">
+						<p class="head">Заявка на регистрацию
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<img src="images/xrestred.svg" alt="" width="15" height="15" class="close">
+							</button>
+						</p> 
+						<p class="recall"><img src="images/znakvoprosa.svg" alt="" width="15" height="15" class="vopros">Оставте ваши контактные данные, и мы вам <br>обязательно перезвоним!</p>
+					</div>
+					<div class="inner__labels">
+						<label class="inner__label">
+							<span class="circle"></span>
+							<span class="title">Имя</span>
+							<input type="text" name="name" placeholder="Марк">
+						</label>
+						<label class="inner__label">
+							<span class="circle"></span>
+							<span class="title">Email</span>
+							<input type="email" name="name" placeholder="mark@gmail.com">
+						</label>
+						<label class="inner__label">
+							<span class="circle"></span>
+							<span class="title">Телефон</span>
+							<input type="tel" name="name" placeholder="+38 (xxx) xxx-xx-xx">
+						</label>
+						<label class="inner__label">
+							<span class="circle1"></span>
+							<span class="title">Город</span>
+							<select class="sel">
+								<option value="Select 1">Киев</option>
+								<option value="Select 2">Одесса</option>
+								<option value="Select 3">Днепр</option>
+								<option value="Select 4">Харьков</option>
+							</select>
+						</label>
+						<label class="inner__label">
+							<span class="circle2"></span>
+							<span class="title">Курс</span>
+							<select class="sel">
+								<option value="Select 1" disabled selected>Выберите</option>
+								<option value="Select 1">Front-End Basic</option>
+								<option value="Select 2">Java Elementary</option>
+								<option value="Select 3">DecOps</option>
+								<option value="Select 4">PHP</option>
+								<option value="Select 5">QA Manual</option>
+							</select>
+						</label>
+
+						<p class="kurs">Обязательно выберите курс, на который хотите <br>оставить заявку</p>
+					</div>
+					<div class="zajavkaniz">
+						<button class="zapus2">Оставить заявку</button>
+					</div>
+				</form>
+		  	</div>
+		  </div>
+		</div>
+
+	</div>
+	<div class="kursi">
+		<div class="wrapper">
+			<h2>Курсы в Компьютерной школе Hillel в Киеве</h2>
+			<div class="kursi__block">
+				<div class="flexeskursi">
+					<img src="images/courser/icon-programming.svg" alt="" width="30" height="30">
+					<p class="row1">Программирование</p>
+					<p class="row2">Java, PHP, Front-End, Python, C#</p>
+				</div>
+				<div class="flexeskursi">
+					<img src="images/courser/icon-testing.svg" alt="" width="30" height="30">
+					<p class="row1">Тестирование</p>
+					<p class="row2">QA Manual/automation, Java for QA</p>
+				</div>
+				<div class="flexeskursi">
+					<img src="images/courser/icon-management.svg" alt="" width="30" height="30">
+					<p class="row1">Менеджмент</p>
+					<p class="row2">PM, HR</p>
+				</div>
+				<div class="flexeskursi">
+					<img src="images/courser/icon-marketing.svg" alt="" width="30" height="30">
+					<p class="row1">Маркетинг</p>
+					<p class="row2">SMM, PPC, SEO, Email</p>
+				</div>
+				<div class="flexeskursi">
+					<img src="images/courser/icon-design.svg" alt="" width="30" height="30">
+					<p class="row1">Дизайн</p>
+					<p class="row2">Photoshop, UI/UX</p>
+				</div>
+				<div class="flexeskursi">
+					<img src="images/courser/icon-kids.svg" alt="" width="30" height="30">
+					<p class="row1kids">Детские курсы</p>
+					<p class="row2">8-17 лет</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="allcourses">
+		<div class="wrapper">
+			<div class="zagolovok">
+				<h3 class="titulka">Профессия Front-End-разработчика</h3>
+				<p class="textfront">Front-End - в наше время, пожалуй, быстрее всего развивающаяся область программирования. С другой стороны, эти технологии достаточно устоявшиеся и распостраннены практически повсеместно, ведь браузер есть во многих электронных устройствах.</p>
+			</div>
+			<div class="coursers">
+				<div class="kurs active">
+					<div class="nazvanie">
+						<img src="images/Front-End-Basic_b.svg" alt="Front-End-Basic" height="25">
+						<p class="textnazvanie">Курс<br>Front-End-Basic</p>				
+					</div>
+					<div class="opisanie">
+						<h4>FRONT-END-BASIC</h4>
+						<p class="textkurs">В рамках курса Front-End Basic студенты без опыта в разработке изучают HTML и CSS. Нарабатывают практические навыки в верстке адаптивных сайтов, знакомятся с пре- и постпроцессорами. В программу курса также входят CSS фреймворки, такие как Bootstrap. По окончании курса успешные Выпускники могут занимать должность верстальщика в Web-студиях.</p>
+					</div>
+				</div>
+
+				<div class="kurs">
+					<div class="nazvanie">
+						<img src="images/Front-End-Pro_b_181227_082130.svg" alt="Front-End PRO" height="25">
+						<div class="kursadv"> <p class="textnazvanie">Курс<br>Front-End PRO</p>
+							<span class="adv">ADVANCED</span>
+						</div>
+					</div>
+					<div class="opisanie">
+						<h4>FRONT-END PRO</h4>
+						<p class="textkurs">Курс Front-End Pro предназначен для Студентов, имеющих практические навыки в верстке. По окончании курса Выпускники владеют JavaScript на достаточном уровне, чтобы писать скрипты, формы, работать с AJAX, а также могут настроить сборку проекта в Gulp. Курс позволяет претендовать на вакансии Junior Front-End Developer.</p>
+					</div>
+				</div>
+
+				<div class="kurs">
+					<div class="nazvanie">
+						<img src="images/Front-End-Pro-Plus_b.svg" alt="Front-End-Basic" height="25">
+						<div class="kursadv"> <p class="textnazvanie">Курс<br>Front-End Pro Plus</p>
+							<span class="adv">ADVANCED</span>
+						</div>
+					</div>
+					<div class="opisanie">
+						<h4>FRONT-END PRO PLUS</h4>
+						<p class="textkurs">Курс для начинающих JavaScript-разработчиков, желающих прокачать свои скилы и попрактиковаться с Typecript, Async JS, Express.js. Научиться писать Unit-тесты, а также создать полноценное WEB-приложение.</p>
+
+					</div>
+				</div>
+
+				<div class="kurs">
+					<div class="nazvanie">
+						<img src="images/React_b.svg" alt="Front-End-Basic" height="25">
+						<div class="kursadv"> <p class="textnazvanie">Курс<br>React</p>
+							<span class="adv">ADVANCED</span>
+						</div>
+					</div>
+					<div class="opisanie">
+						<h4>REACT</h4>
+						<p class="textkurs">Курс, посвященный библиотеке React, раскрывает для Студентов все нюансы: от того как работает виртуальный DOM, до того, как собрать приложение Webpack-ом.</p>
+					</div>
+				</div>
+				<div class="vertical1">
+					<div class="vertical2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="lastblock">
+		<div class="wrapper">
+		<div class="evoblock">
+			<img src="images/logo__evo.svg" alt="Evo" class="evo__logo" height="40">
+			<p class="evotext">Программа для реализации идей <br>Студентов и Выпускников Школы</p>
+		</div>
+		<div class="znaki">
+
+
+			<div class="znakiinside">
+				<div class="idea"><img src="images/roadmap/icon-idea.svg" alt="" height="40" width="40" class="lampapic"></div>
+				<p class="znakitext">Идея</p>
+			</div>
+			<div><img src="images/roadmap/arrow-evo.svg" alt="arrow-evo" height="30" width="30" class="strelka"></div>
+
+
+
+			<div class="znakiinside">
+				<div class="pit"><img src="images/roadmap/icon-pitching.svg" alt="" height="40" width="40" class="pitpic"></div>
+				<p class="znakitext">Питчинг</p>
+			</div>
+			<div><img src="images/roadmap/arrow-evo.svg" alt="arrow-evo" height="30" width="30" class="strelka"></div>
+
+
+			<div class="znakiinside">
+				<div class="pit"><img src="images/roadmap/icon-team.svg" alt="" height="40" width="40" class="pitpic"></div>
+				<p class="znakitext">Подбор команд <br>и менторов</p>
+			</div>
+			<div><img src="images/roadmap/arrow-evo.svg" alt="arrow-evo" height="30" width="30" class="strelka"></div>
+
+
+			<div class="znakiinside">
+				<div class="pit"><img src="images/roadmap/icon-realisation.svg" alt="" height="40" width="40" class="pitpic"></div>
+				<p class="znakitext">Реализация <br>идей</p>
+			</div>
+			<div><img src="images/roadmap/arrow-evo.svg" alt="arrow-evo" height="30" width="30" class="strelka"></div>
+
+			<div class="znakiinside">
+				<div class="idea2"><img src="images/roadmap/icon-presentation.svg" alt="" height="40" width="40" class="flagpic"></div>
+				<p class="znakitext">Презентация готовых <br>проектов</p>
+
+
+			</div>
+		</div>
+		</div>
+	</div>
+<div class="social">
+
+	<div class="seti">
+		<div class="set">
+			<div class="setpic"><img src="images/footer/footer_socialFb.svg" alt="" height="20" width="20"></div>
+			<span class="liniaseti"></span>
+			<div class="settext"><p class="lot">10556</p></div>
+		</div>
+		<div class="set">
+			<div class="setpic"><img src="images/footer/footer_socialYt.svg" alt="" height="20" width="20"></div>
+			<span class="liniaseti"></span>
+			<div class="settext"><p>26563</p></div>
+		</div>
+		<div class="set">
+			<div class="setpic"><img src="images/footer/footer_socialIg.svg" alt="" height="20" width="20"></div>
+			<span class="liniaseti"></span>
+			<div class="settext"><p>4704</p></div>
+		</div>
+		<div class="set">
+			<div class="setpic"><img src="images/footer/footer_socialIn.svg" alt="" height="20" width="20"></div>
+			<span class="liniaseti"></span>
+			<div class="settext"><p>1470</p></div>
+		</div>
+		<div class="set-t">
+			<div class="setpic"><img src="images/footer/footer_socialTg.svg" alt="" height="20" width="20"></div>
+		</div>
+
+	</div>
+	
+	<div class="goroda">
+		<div class="city">
+			<div class="textcity">КИЕВ</div>
+			<div class="textcity">ОДЕССА</div>
+			<div class="textcity">ДНЕПР</div>
+			<div class="textcity">ХАРЬКОВ</div>
+		</div>
+
+		<div class="adress">
+
+			<div class="points">
+				<img src="images/points/home-icon-silhouette.svg" alt="" height="20" width="20" class="si">
+				<div class="atext">ул.Мечникова, 14/1 <br>ст. метро "Кловская" <br>2-й этаж, офис 222а</div>
+			</div>
+
+			<div class="points">
+				<img src="images/points/phone.svg" alt="" height="20" width="20" class="si">
+				<div class="atext">+38 (067) 808 45 69 <br>+38 (044) 290 76 31</div>
+			</div>
+
+			<div class="points">
+				<img src="images/points/mail-black-envelope-symbol.svg" alt="" height="20" width="20" class="si">
+				<div class="atext">kyiv@ithillel.ua</div>
+			</div>
+
+
+		</div>
+	</div>
+
+
+</div>
+
+<div class="end">
+	<nav class="ssilkinav">
+		<ul class="lis">
+			<li><a href="URL" class="ssilkis">Личный кабинет</a></li>
+			<li><a href="URL" class="ssilkis">Работа в IT</a></li>
+			<li><a href="URL" class="ssilkis">Карта сайта</a></li>
+			<li><a href="URL" class="ssilkis">Политика конфиденциальности</a></li>
+		</ul>	
+	</nav>
+
+
+	<div class="textssilki">© 2019 Компьютерная школа Hillel</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<!-- our script -->
+		<script src="js/script.js"></script>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,334 @@
+@import "courses"
+$blue-color: #244c8e
+
+body
+	padding: 0
+	background: #F6F6F6
+
+
+.header__menu
+	background: #0F4588
+.header__menu-nav li a
+	color: #FFFFFF
+.header__locations li.active a
+	background: #244c8e
+	color: white
+.compkurs
+	color: #FFFFFF
+	font-size: 25px
+	font-weight: bold
+	margin-bottom: 30px
+
+.inkiev
+	color: #FFFFFF
+	font-size: 21px
+	font-weight: normal
+.speci
+	color: #FFFFFF
+	font-size: 15px
+	font-weight: normal
+	position: relative
+	margin-bottom: 60px
+
+.speci::after
+	position: absolute
+	content: ''
+	display: block
+	width: 516px
+	height: 1px
+	background: white
+	bottom: -30px
+
+.readytowork
+	color: #50D400
+	font-size: 14px
+	font-weight: normal
+.intro
+	background: #174584
+	padding: 60px 0
+
+.btn
+	display: flex
+	align-items: center
+	justify-content: space-between
+	font-size: 15px
+	font-weight: bold
+	color: #0F4588
+
+.btnschoolcourses
+	font-size: 15px
+	font-weight: bold
+	color: white
+	background: none
+	border: 0
+.dropdown
+	color: #0F4588
+.front-end
+	background-image: url(../icons/Front-end/Front-End-Basic.jpg)
+	background-size: cover
+	background-position: center center
+.front-end-pro
+	background-image: url(../icons/Front-end/Front-End-Pro.jpg)
+	background-size: cover
+	background-position: center center
+.front-end-pro-plus
+	background-image: url(../icons/Front-end/FrontEndPro_menu.jpg)
+	background-size: cover
+	background-position: center center
+.react
+	background-image: url(../icons/Front-end/React.jpg)
+	background-size: cover
+	background-position: center center
+.jue
+	background-image: url(../icons/Front-end/Vue-JS.jpg)
+	background-size: cover
+	background-position: center center
+.injava
+	background-image: url(../icons/Java/Intro-Java.jpg)
+	background-size: cover
+	background-position: center center
+.javael
+	background-image: url(../icons/Java/Java-Elementary-2.jpg)
+	background-size: cover
+	background-position: center center
+.javaen
+	background-image: url(../icons/Java/Java-Enterprise-Cover.jpg)
+	background-size: cover
+	background-position: center center
+.php
+	background-image: url(../icons/PHP/PHP.jpg)
+	background-size: cover
+	background-position: center center
+
+
+
+
+.rassilka
+	background: #1D4181
+	background-size: cover
+	background-position: center center
+	background-repeat: no-repeat
+	padding: 0
+	margin: 20px auto
+	display: flex
+	justify-content: center
+	margin-left: auto
+	margin-right: auto
+	align-items: center
+.email
+	display: flex
+	margin: 0 20px 0 0
+	align-items: center
+.etext
+	font-size: 13px
+	color: white
+	
+.poleemail
+	justify-content: flex-start
+	font-size: 13px
+	color: white
+	display: flex
+	align-items: center
+	margin-bottom: 0
+	height: 35px
+
+
+.form-control
+	border-top-right-radius: 0
+	border-bottom-right-radius: 0
+	border: 0
+	height: 100%
+	&:focus::-webkit-input-placeholder
+		color: transparent
+	
+.btn .btn-primary
+	border-top-left-radius: 0
+	border-bottom-left-radius: 0
+	background: #375EA0
+	color: #97ACCD
+	border-color: #375EA0
+	height: 100%
+	border: 0
+	
+.advcolor
+	color: #A4B5D3
+
+.courses_intro
+	display: flex
+	padding: 80px 0
+
+.courses_intro .wrapper
+	align-items: flex-start
+.wrapper
+	display: flex
+	flex-direction: row
+
+.courses__menu
+	width: 250px
+	margin-right: 20px
+	box-shadow: 0 10px 40px rgba(20,34,51,.1)
+
+.courses__content
+	width: 100%
+
+.course__info
+	display: none
+	padding: 15px 20px
+	border: 1px solid #efefef
+	border-radius: 6px
+	margin-bottom: 10px
+	&.active
+		display: block
+	h3
+		font-size: 18px
+		display: flex
+		align-items: center
+		color: $blue-color
+		margin-bottom: 15px
+		span
+			display: inline-block
+			width: 6px
+			height: 6px
+			background: $blue-color
+			border-radius: 50px
+			margin: 0 10px
+
+.course__about
+	display: flex
+	justify-content: space-between
+	width: 100%
+.course__naming
+	min-width: 70%
+	padding-right: 20px
+	p
+		padding: 15px 20px
+		border-radius: 6px
+		font-size: 15px
+		color: white
+		display: flex
+		align-items: center
+.course__naming2
+	min-width: 70%
+	padding-right: 20px
+	p
+		padding: 15px 20px
+		border-radius: 6px
+		font-size: 15px
+		color: white
+		display: flex
+		align-items: center
+		background: #879DC2
+.card-body
+	display: flex
+	flex-direction: column
+	background: #F6F6F6
+	padding: 10px 0
+	.btn
+		width: 100%
+		margin: 0
+		padding: 8px 0 8px 40px
+		border: 0
+		font-size: 13px
+		background: transparent
+		position: relative
+		border-radius: 0
+		&::before
+			content: ''		
+			position: absolute
+			left: 20px
+			width: 6px
+			height: 6px
+			background: transparent
+			border-radius: 50px
+		&.btn-success
+			&::before
+				background: #4ed401
+		&:hover
+			background: #e3e7ed	
+			color: #0F4595
+		&:focus
+			box-shadow: none
+.card-body
+	display: flex
+	flex-direction: column
+	background: #F6F6F6
+.card-body 
+	.btn
+		border: 0
+		margin: 3px
+		background: #F6F6F6
+		&:hover
+			color: #0F4595
+			border: 5px
+.card-header
+	background: #FFFFFF
+	border: none
+	margin-bottom: -1px
+	padding: 0
+	.btn
+		width: 100%
+		justify-content: flex-start
+		padding: .75rem 1.25rem
+		border-radius: 0
+		&:hover, &[aria-expanded='true']
+			text-decoration: none
+			background: #e3e7ed
+
+.adv
+	margin-left: auto
+.header__menu-nav .btn
+	color: #FFFFFF
+	background: #0F4588
+	border: 0
+
+.header__menu-nav .dropdown-item
+	color: #0F4588
+
+.header__menu-nav
+	float: right
+	position: relative
+	margin: 0
+.zapus
+	color: white
+	border: none
+	font-size: 12px
+	padding: 10px 20px
+
+.form-group .btn
+	background: #365EA0
+	color: #97ADCF
+	border: 0
+.accordion>.card:last-of-type
+	border-bottom: 0
+.accordion>.card:first-of-type
+	border-bottom: 0
+.accordion>.card:not(:first-of-type):not(:last-of-type)
+	border-bottom: 0
+.accordion>.card .card-header
+	margin-bottom: -1px
+.card-header
+	border: none
+
+.pici
+	padding: 0 10px 0 0
+.poleemail .btn
+	color: #98ACCC
+	background: #375DA0
+	border: 0
+	border-radius:  0 .25rem .25rem 0
+	height: 100%
+.modal-dialog
+	width: 460px
+.zajavka
+	margin: 0
+	width: 100%
+.footer
+	background: #1D4181
+.footer .wrapper
+	display: flex
+	flex-direction: column
+.footer .end
+	padding-left: 300px
+.footer .textssilki
+	padding-left: 40px
+

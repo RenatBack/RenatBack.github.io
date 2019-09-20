@@ -1,0 +1,29 @@
+<svg id="icon-Visitors" viewBox="0 0 86 86" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+	<g transform="matrix(0.869299,0,0,0.869299,-103.211,-881.751)">
+		<g>
+			<g opacity="0.7">
+				<g transform="matrix(0.542186,-0.864498,-0.864498,-0.542186,205.939,1072.52)">
+					<path d="M-4.75,27.453L18.582,31.248" style="fill:none;stroke:white;stroke-width:2.25px;"></path>
+				</g>
+				<g transform="matrix(0.862168,0.545885,0.545885,-0.862168,163.729,1053.8)">
+					<path d="M3.627,-3.809L12.879,-2.003" style="fill:none;stroke:white;stroke-width:2.25px;"></path>
+				</g>
+				<g transform="matrix(0.540919,-0.865291,-0.865291,-0.540919,147.797,1090.62)">
+					<path d="M3.869,2.611L30.728,6.688" style="fill:none;stroke:white;stroke-width:2.25px;"></path>
+				</g>
+				<g transform="matrix(0,-1.02045,-1.02045,-0,145.791,1084.86)">
+					<circle cx="-3.716" cy="-0.001" r="3.715" style="fill:none;stroke:white;stroke-width:2.25px;"></circle>
+				</g>
+				<g transform="matrix(0,-1.02045,-1.02045,-0,160.554,1053.56)">
+					<circle cx="-3.845" cy="-0.001" r="3.845" style="fill:none;stroke:white;stroke-width:2.25px;"></circle>
+				</g>
+				<g transform="matrix(0,-1.02045,-1.02045,-0,177,1060.67)">
+					<ellipse cx="-3.678" cy="0" rx="3.679" ry="3.678" style="fill:none;stroke:white;stroke-width:2.25px;"></ellipse>
+				</g>
+			</g>
+		</g>
+		<g transform="matrix(1.29293,0,0,1.29293,196.157,1031.09)">
+			<path d="M0,0.001C0,1.935 -1.567,3.501 -3.501,3.501C-5.434,3.501 -7.001,1.935 -7.001,0.001C-7.001,-1.933 -5.434,-3.5 -3.501,-3.5C-1.567,-3.5 0,-1.933 0,0.001" style="fill:rgb(78,212,1);fill-rule:nonzero;"></path>
+		</g>
+	</g>
+</svg>
